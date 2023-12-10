@@ -1,0 +1,324 @@
+2023-12-10 01:57:42,042 20240 INFO ? odoo: Odoo version 16.0-20231209 
+2023-12-10 01:57:42,053 20240 INFO ? odoo: Using configuration file at C:\Program Files\Odoo-16-Community\server\odoo.conf 
+2023-12-10 01:57:42,053 20240 INFO ? odoo: addons paths: ['C:\\Program Files\\Odoo-16-Community\\server\\odoo\\addons', 'c:\\program files\\odoo-16-community\\sessions\\addons\\16.0', 'c:\\program files\\odoo-16-community\\server\\odoo\\addons'] 
+2023-12-10 01:57:42,053 20240 INFO ? odoo: database: openpg@localhost:5432 
+2023-12-10 01:57:42,959 20240 INFO ? odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltopdf binary at C:\Program Files\Odoo-16-Community\thirdparty\wkhtmltopdf.exe 
+2023-12-10 01:57:44,146 20240 WARNING ? py.warnings: C:\Program Files\Odoo-16-Community\python\lib\site-packages\num2words\lang_AR.py:191: SyntaxWarning: "is not" with a literal. Did you mean "!="?
+  File "C:\Program Files\Odoo-16-Community\server\odoo-bin", line 8, in <module>
+    odoo.cli.main()
+  File "C:\Program Files\Odoo-16-Community\server\odoo\cli\command.py", line 66, in main
+    o.run(args)
+  File "C:\Program Files\Odoo-16-Community\server\odoo\cli\server.py", line 180, in run
+    main(args)
+  File "C:\Program Files\Odoo-16-Community\server\odoo\cli\server.py", line 173, in main
+    rc = odoo.service.server.start(preload=preload, stop=stop)
+  File "C:\Program Files\Odoo-16-Community\server\odoo\service\server.py", line 1345, in start
+    load_server_wide_modules()
+  File "C:\Program Files\Odoo-16-Community\server\odoo\service\server.py", line 1248, in load_server_wide_modules
+    odoo.modules.module.load_openerp_module(m)
+  File "C:\Program Files\Odoo-16-Community\server\odoo\modules\module.py", line 471, in load_openerp_module
+    __import__('odoo.addons.' + module_name)
+  File "C:\Program Files\Odoo-16-Community\server\odoo\addons\web\__init__.py", line 4, in <module>
+    from . import controllers
+  File "C:\Program Files\Odoo-16-Community\server\odoo\addons\web\controllers\__init__.py", line 5, in <module>
+    from . import database
+  File "C:\Program Files\Odoo-16-Community\server\odoo\addons\web\controllers\database.py", line 19, in <module>
+    from odoo.addons.base.models.ir_qweb import render as qweb_render
+  File "C:\Program Files\Odoo-16-Community\server\odoo\addons\base\__init__.py", line 5, in <module>
+    from . import models
+  File "C:\Program Files\Odoo-16-Community\server\odoo\addons\base\models\__init__.py", line 43, in <module>
+    from . import res_currency
+  File "C:\Program Files\Odoo-16-Community\server\odoo\addons\base\models\res_currency.py", line 16, in <module>
+    from num2words import num2words
+  File "C:\Program Files\Odoo-16-Community\python\lib\site-packages\num2words\__init__.py", line 20, in <module>
+    from . import lang_AR
+  File "C:\Program Files\Odoo-16-Community\python\lib\warnings.py", line 109, in _showwarnmsg
+    sw(msg.message, msg.category, msg.filename, msg.lineno,
+  File "C:\Program Files\Odoo-16-Community\server\odoo\netsvc.py", line 287, in showwarning_with_traceback
+    for frame in traceback.extract_stack():
+ 
+2023-12-10 01:57:44,149 20240 WARNING ? py.warnings: C:\Program Files\Odoo-16-Community\python\lib\site-packages\num2words\lang_AR.py:195: SyntaxWarning: "is not" with a literal. Did you mean "!="?
+  File "C:\Program Files\Odoo-16-Community\server\odoo-bin", line 8, in <module>
+    odoo.cli.main()
+  File "C:\Program Files\Odoo-16-Community\server\odoo\cli\command.py", line 66, in main
+    o.run(args)
+  File "C:\Program Files\Odoo-16-Community\server\odoo\cli\server.py", line 180, in run
+    main(args)
+  File "C:\Program Files\Odoo-16-Community\server\odoo\cli\server.py", line 173, in main
+    rc = odoo.service.server.start(preload=preload, stop=stop)
+  File "C:\Program Files\Odoo-16-Community\server\odoo\service\server.py", line 1345, in start
+    load_server_wide_modules()
+  File "C:\Program Files\Odoo-16-Community\server\odoo\service\server.py", line 1248, in load_server_wide_modules
+    odoo.modules.module.load_openerp_module(m)
+  File "C:\Program Files\Odoo-16-Community\server\odoo\modules\module.py", line 471, in load_openerp_module
+    __import__('odoo.addons.' + module_name)
+  File "C:\Program Files\Odoo-16-Community\server\odoo\addons\web\__init__.py", line 4, in <module>
+    from . import controllers
+  File "C:\Program Files\Odoo-16-Community\server\odoo\addons\web\controllers\__init__.py", line 5, in <module>
+    from . import database
+  File "C:\Program Files\Odoo-16-Community\server\odoo\addons\web\controllers\database.py", line 19, in <module>
+    from odoo.addons.base.models.ir_qweb import render as qweb_render
+  File "C:\Program Files\Odoo-16-Community\server\odoo\addons\base\__init__.py", line 5, in <module>
+    from . import models
+  File "C:\Program Files\Odoo-16-Community\server\odoo\addons\base\models\__init__.py", line 43, in <module>
+    from . import res_currency
+  File "C:\Program Files\Odoo-16-Community\server\odoo\addons\base\models\res_currency.py", line 16, in <module>
+    from num2words import num2words
+  File "C:\Program Files\Odoo-16-Community\python\lib\site-packages\num2words\__init__.py", line 20, in <module>
+    from . import lang_AR
+  File "C:\Program Files\Odoo-16-Community\python\lib\warnings.py", line 109, in _showwarnmsg
+    sw(msg.message, msg.category, msg.filename, msg.lineno,
+  File "C:\Program Files\Odoo-16-Community\server\odoo\netsvc.py", line 287, in showwarning_with_traceback
+    for frame in traceback.extract_stack():
+ 
+2023-12-10 01:57:44,149 20240 WARNING ? py.warnings: C:\Program Files\Odoo-16-Community\python\lib\site-packages\num2words\lang_AR.py:229: SyntaxWarning: "is not" with a literal. Did you mean "!="?
+  File "C:\Program Files\Odoo-16-Community\server\odoo-bin", line 8, in <module>
+    odoo.cli.main()
+  File "C:\Program Files\Odoo-16-Community\server\odoo\cli\command.py", line 66, in main
+    o.run(args)
+  File "C:\Program Files\Odoo-16-Community\server\odoo\cli\server.py", line 180, in run
+    main(args)
+  File "C:\Program Files\Odoo-16-Community\server\odoo\cli\server.py", line 173, in main
+    rc = odoo.service.server.start(preload=preload, stop=stop)
+  File "C:\Program Files\Odoo-16-Community\server\odoo\service\server.py", line 1345, in start
+    load_server_wide_modules()
+  File "C:\Program Files\Odoo-16-Community\server\odoo\service\server.py", line 1248, in load_server_wide_modules
+    odoo.modules.module.load_openerp_module(m)
+  File "C:\Program Files\Odoo-16-Community\server\odoo\modules\module.py", line 471, in load_openerp_module
+    __import__('odoo.addons.' + module_name)
+  File "C:\Program Files\Odoo-16-Community\server\odoo\addons\web\__init__.py", line 4, in <module>
+    from . import controllers
+  File "C:\Program Files\Odoo-16-Community\server\odoo\addons\web\controllers\__init__.py", line 5, in <module>
+    from . import database
+  File "C:\Program Files\Odoo-16-Community\server\odoo\addons\web\controllers\database.py", line 19, in <module>
+    from odoo.addons.base.models.ir_qweb import render as qweb_render
+  File "C:\Program Files\Odoo-16-Community\server\odoo\addons\base\__init__.py", line 5, in <module>
+    from . import models
+  File "C:\Program Files\Odoo-16-Community\server\odoo\addons\base\models\__init__.py", line 43, in <module>
+    from . import res_currency
+  File "C:\Program Files\Odoo-16-Community\server\odoo\addons\base\models\res_currency.py", line 16, in <module>
+    from num2words import num2words
+  File "C:\Program Files\Odoo-16-Community\python\lib\site-packages\num2words\__init__.py", line 20, in <module>
+    from . import lang_AR
+  File "C:\Program Files\Odoo-16-Community\python\lib\warnings.py", line 109, in _showwarnmsg
+    sw(msg.message, msg.category, msg.filename, msg.lineno,
+  File "C:\Program Files\Odoo-16-Community\server\odoo\netsvc.py", line 287, in showwarning_with_traceback
+    for frame in traceback.extract_stack():
+ 
+2023-12-10 01:57:44,153 20240 WARNING ? py.warnings: C:\Program Files\Odoo-16-Community\python\lib\site-packages\num2words\lang_AR.py:231: SyntaxWarning: "is not" with a literal. Did you mean "!="?
+  File "C:\Program Files\Odoo-16-Community\server\odoo-bin", line 8, in <module>
+    odoo.cli.main()
+  File "C:\Program Files\Odoo-16-Community\server\odoo\cli\command.py", line 66, in main
+    o.run(args)
+  File "C:\Program Files\Odoo-16-Community\server\odoo\cli\server.py", line 180, in run
+    main(args)
+  File "C:\Program Files\Odoo-16-Community\server\odoo\cli\server.py", line 173, in main
+    rc = odoo.service.server.start(preload=preload, stop=stop)
+  File "C:\Program Files\Odoo-16-Community\server\odoo\service\server.py", line 1345, in start
+    load_server_wide_modules()
+  File "C:\Program Files\Odoo-16-Community\server\odoo\service\server.py", line 1248, in load_server_wide_modules
+    odoo.modules.module.load_openerp_module(m)
+  File "C:\Program Files\Odoo-16-Community\server\odoo\modules\module.py", line 471, in load_openerp_module
+    __import__('odoo.addons.' + module_name)
+  File "C:\Program Files\Odoo-16-Community\server\odoo\addons\web\__init__.py", line 4, in <module>
+    from . import controllers
+  File "C:\Program Files\Odoo-16-Community\server\odoo\addons\web\controllers\__init__.py", line 5, in <module>
+    from . import database
+  File "C:\Program Files\Odoo-16-Community\server\odoo\addons\web\controllers\database.py", line 19, in <module>
+    from odoo.addons.base.models.ir_qweb import render as qweb_render
+  File "C:\Program Files\Odoo-16-Community\server\odoo\addons\base\__init__.py", line 5, in <module>
+    from . import models
+  File "C:\Program Files\Odoo-16-Community\server\odoo\addons\base\models\__init__.py", line 43, in <module>
+    from . import res_currency
+  File "C:\Program Files\Odoo-16-Community\server\odoo\addons\base\models\res_currency.py", line 16, in <module>
+    from num2words import num2words
+  File "C:\Program Files\Odoo-16-Community\python\lib\site-packages\num2words\__init__.py", line 20, in <module>
+    from . import lang_AR
+  File "C:\Program Files\Odoo-16-Community\python\lib\warnings.py", line 109, in _showwarnmsg
+    sw(msg.message, msg.category, msg.filename, msg.lineno,
+  File "C:\Program Files\Odoo-16-Community\server\odoo\netsvc.py", line 287, in showwarning_with_traceback
+    for frame in traceback.extract_stack():
+ 
+2023-12-10 01:57:44,155 20240 WARNING ? py.warnings: C:\Program Files\Odoo-16-Community\python\lib\site-packages\num2words\lang_AR.py:239: SyntaxWarning: "is not" with a literal. Did you mean "!="?
+  File "C:\Program Files\Odoo-16-Community\server\odoo-bin", line 8, in <module>
+    odoo.cli.main()
+  File "C:\Program Files\Odoo-16-Community\server\odoo\cli\command.py", line 66, in main
+    o.run(args)
+  File "C:\Program Files\Odoo-16-Community\server\odoo\cli\server.py", line 180, in run
+    main(args)
+  File "C:\Program Files\Odoo-16-Community\server\odoo\cli\server.py", line 173, in main
+    rc = odoo.service.server.start(preload=preload, stop=stop)
+  File "C:\Program Files\Odoo-16-Community\server\odoo\service\server.py", line 1345, in start
+    load_server_wide_modules()
+  File "C:\Program Files\Odoo-16-Community\server\odoo\service\server.py", line 1248, in load_server_wide_modules
+    odoo.modules.module.load_openerp_module(m)
+  File "C:\Program Files\Odoo-16-Community\server\odoo\modules\module.py", line 471, in load_openerp_module
+    __import__('odoo.addons.' + module_name)
+  File "C:\Program Files\Odoo-16-Community\server\odoo\addons\web\__init__.py", line 4, in <module>
+    from . import controllers
+  File "C:\Program Files\Odoo-16-Community\server\odoo\addons\web\controllers\__init__.py", line 5, in <module>
+    from . import database
+  File "C:\Program Files\Odoo-16-Community\server\odoo\addons\web\controllers\database.py", line 19, in <module>
+    from odoo.addons.base.models.ir_qweb import render as qweb_render
+  File "C:\Program Files\Odoo-16-Community\server\odoo\addons\base\__init__.py", line 5, in <module>
+    from . import models
+  File "C:\Program Files\Odoo-16-Community\server\odoo\addons\base\models\__init__.py", line 43, in <module>
+    from . import res_currency
+  File "C:\Program Files\Odoo-16-Community\server\odoo\addons\base\models\res_currency.py", line 16, in <module>
+    from num2words import num2words
+  File "C:\Program Files\Odoo-16-Community\python\lib\site-packages\num2words\__init__.py", line 20, in <module>
+    from . import lang_AR
+  File "C:\Program Files\Odoo-16-Community\python\lib\warnings.py", line 109, in _showwarnmsg
+    sw(msg.message, msg.category, msg.filename, msg.lineno,
+  File "C:\Program Files\Odoo-16-Community\server\odoo\netsvc.py", line 287, in showwarning_with_traceback
+    for frame in traceback.extract_stack():
+ 
+2023-12-10 01:57:44,157 20240 WARNING ? py.warnings: C:\Program Files\Odoo-16-Community\python\lib\site-packages\num2words\lang_AR.py:253: SyntaxWarning: "is not" with a literal. Did you mean "!="?
+  File "C:\Program Files\Odoo-16-Community\server\odoo-bin", line 8, in <module>
+    odoo.cli.main()
+  File "C:\Program Files\Odoo-16-Community\server\odoo\cli\command.py", line 66, in main
+    o.run(args)
+  File "C:\Program Files\Odoo-16-Community\server\odoo\cli\server.py", line 180, in run
+    main(args)
+  File "C:\Program Files\Odoo-16-Community\server\odoo\cli\server.py", line 173, in main
+    rc = odoo.service.server.start(preload=preload, stop=stop)
+  File "C:\Program Files\Odoo-16-Community\server\odoo\service\server.py", line 1345, in start
+    load_server_wide_modules()
+  File "C:\Program Files\Odoo-16-Community\server\odoo\service\server.py", line 1248, in load_server_wide_modules
+    odoo.modules.module.load_openerp_module(m)
+  File "C:\Program Files\Odoo-16-Community\server\odoo\modules\module.py", line 471, in load_openerp_module
+    __import__('odoo.addons.' + module_name)
+  File "C:\Program Files\Odoo-16-Community\server\odoo\addons\web\__init__.py", line 4, in <module>
+    from . import controllers
+  File "C:\Program Files\Odoo-16-Community\server\odoo\addons\web\controllers\__init__.py", line 5, in <module>
+    from . import database
+  File "C:\Program Files\Odoo-16-Community\server\odoo\addons\web\controllers\database.py", line 19, in <module>
+    from odoo.addons.base.models.ir_qweb import render as qweb_render
+  File "C:\Program Files\Odoo-16-Community\server\odoo\addons\base\__init__.py", line 5, in <module>
+    from . import models
+  File "C:\Program Files\Odoo-16-Community\server\odoo\addons\base\models\__init__.py", line 43, in <module>
+    from . import res_currency
+  File "C:\Program Files\Odoo-16-Community\server\odoo\addons\base\models\res_currency.py", line 16, in <module>
+    from num2words import num2words
+  File "C:\Program Files\Odoo-16-Community\python\lib\site-packages\num2words\__init__.py", line 20, in <module>
+    from . import lang_AR
+  File "C:\Program Files\Odoo-16-Community\python\lib\warnings.py", line 109, in _showwarnmsg
+    sw(msg.message, msg.category, msg.filename, msg.lineno,
+  File "C:\Program Files\Odoo-16-Community\server\odoo\netsvc.py", line 287, in showwarning_with_traceback
+    for frame in traceback.extract_stack():
+ 
+2023-12-10 01:57:44,157 20240 WARNING ? py.warnings: C:\Program Files\Odoo-16-Community\python\lib\site-packages\num2words\lang_AR.py:291: SyntaxWarning: "is not" with a literal. Did you mean "!="?
+  File "C:\Program Files\Odoo-16-Community\server\odoo-bin", line 8, in <module>
+    odoo.cli.main()
+  File "C:\Program Files\Odoo-16-Community\server\odoo\cli\command.py", line 66, in main
+    o.run(args)
+  File "C:\Program Files\Odoo-16-Community\server\odoo\cli\server.py", line 180, in run
+    main(args)
+  File "C:\Program Files\Odoo-16-Community\server\odoo\cli\server.py", line 173, in main
+    rc = odoo.service.server.start(preload=preload, stop=stop)
+  File "C:\Program Files\Odoo-16-Community\server\odoo\service\server.py", line 1345, in start
+    load_server_wide_modules()
+  File "C:\Program Files\Odoo-16-Community\server\odoo\service\server.py", line 1248, in load_server_wide_modules
+    odoo.modules.module.load_openerp_module(m)
+  File "C:\Program Files\Odoo-16-Community\server\odoo\modules\module.py", line 471, in load_openerp_module
+    __import__('odoo.addons.' + module_name)
+  File "C:\Program Files\Odoo-16-Community\server\odoo\addons\web\__init__.py", line 4, in <module>
+    from . import controllers
+  File "C:\Program Files\Odoo-16-Community\server\odoo\addons\web\controllers\__init__.py", line 5, in <module>
+    from . import database
+  File "C:\Program Files\Odoo-16-Community\server\odoo\addons\web\controllers\database.py", line 19, in <module>
+    from odoo.addons.base.models.ir_qweb import render as qweb_render
+  File "C:\Program Files\Odoo-16-Community\server\odoo\addons\base\__init__.py", line 5, in <module>
+    from . import models
+  File "C:\Program Files\Odoo-16-Community\server\odoo\addons\base\models\__init__.py", line 43, in <module>
+    from . import res_currency
+  File "C:\Program Files\Odoo-16-Community\server\odoo\addons\base\models\res_currency.py", line 16, in <module>
+    from num2words import num2words
+  File "C:\Program Files\Odoo-16-Community\python\lib\site-packages\num2words\__init__.py", line 20, in <module>
+    from . import lang_AR
+  File "C:\Program Files\Odoo-16-Community\python\lib\warnings.py", line 109, in _showwarnmsg
+    sw(msg.message, msg.category, msg.filename, msg.lineno,
+  File "C:\Program Files\Odoo-16-Community\server\odoo\netsvc.py", line 287, in showwarning_with_traceback
+    for frame in traceback.extract_stack():
+ 
+2023-12-10 01:57:44,161 20240 WARNING ? py.warnings: C:\Program Files\Odoo-16-Community\python\lib\site-packages\num2words\lang_AR.py:302: SyntaxWarning: "is" with a literal. Did you mean "=="?
+  File "C:\Program Files\Odoo-16-Community\server\odoo-bin", line 8, in <module>
+    odoo.cli.main()
+  File "C:\Program Files\Odoo-16-Community\server\odoo\cli\command.py", line 66, in main
+    o.run(args)
+  File "C:\Program Files\Odoo-16-Community\server\odoo\cli\server.py", line 180, in run
+    main(args)
+  File "C:\Program Files\Odoo-16-Community\server\odoo\cli\server.py", line 173, in main
+    rc = odoo.service.server.start(preload=preload, stop=stop)
+  File "C:\Program Files\Odoo-16-Community\server\odoo\service\server.py", line 1345, in start
+    load_server_wide_modules()
+  File "C:\Program Files\Odoo-16-Community\server\odoo\service\server.py", line 1248, in load_server_wide_modules
+    odoo.modules.module.load_openerp_module(m)
+  File "C:\Program Files\Odoo-16-Community\server\odoo\modules\module.py", line 471, in load_openerp_module
+    __import__('odoo.addons.' + module_name)
+  File "C:\Program Files\Odoo-16-Community\server\odoo\addons\web\__init__.py", line 4, in <module>
+    from . import controllers
+  File "C:\Program Files\Odoo-16-Community\server\odoo\addons\web\controllers\__init__.py", line 5, in <module>
+    from . import database
+  File "C:\Program Files\Odoo-16-Community\server\odoo\addons\web\controllers\database.py", line 19, in <module>
+    from odoo.addons.base.models.ir_qweb import render as qweb_render
+  File "C:\Program Files\Odoo-16-Community\server\odoo\addons\base\__init__.py", line 5, in <module>
+    from . import models
+  File "C:\Program Files\Odoo-16-Community\server\odoo\addons\base\models\__init__.py", line 43, in <module>
+    from . import res_currency
+  File "C:\Program Files\Odoo-16-Community\server\odoo\addons\base\models\res_currency.py", line 16, in <module>
+    from num2words import num2words
+  File "C:\Program Files\Odoo-16-Community\python\lib\site-packages\num2words\__init__.py", line 20, in <module>
+    from . import lang_AR
+  File "C:\Program Files\Odoo-16-Community\python\lib\warnings.py", line 109, in _showwarnmsg
+    sw(msg.message, msg.category, msg.filename, msg.lineno,
+  File "C:\Program Files\Odoo-16-Community\server\odoo\netsvc.py", line 287, in showwarning_with_traceback
+    for frame in traceback.extract_stack():
+ 
+2023-12-10 01:57:44,161 20240 WARNING ? py.warnings: C:\Program Files\Odoo-16-Community\python\lib\site-packages\num2words\lang_AR.py:305: SyntaxWarning: "is" with a literal. Did you mean "=="?
+  File "C:\Program Files\Odoo-16-Community\server\odoo-bin", line 8, in <module>
+    odoo.cli.main()
+  File "C:\Program Files\Odoo-16-Community\server\odoo\cli\command.py", line 66, in main
+    o.run(args)
+  File "C:\Program Files\Odoo-16-Community\server\odoo\cli\server.py", line 180, in run
+    main(args)
+  File "C:\Program Files\Odoo-16-Community\server\odoo\cli\server.py", line 173, in main
+    rc = odoo.service.server.start(preload=preload, stop=stop)
+  File "C:\Program Files\Odoo-16-Community\server\odoo\service\server.py", line 1345, in start
+    load_server_wide_modules()
+  File "C:\Program Files\Odoo-16-Community\server\odoo\service\server.py", line 1248, in load_server_wide_modules
+    odoo.modules.module.load_openerp_module(m)
+  File "C:\Program Files\Odoo-16-Community\server\odoo\modules\module.py", line 471, in load_openerp_module
+    __import__('odoo.addons.' + module_name)
+  File "C:\Program Files\Odoo-16-Community\server\odoo\addons\web\__init__.py", line 4, in <module>
+    from . import controllers
+  File "C:\Program Files\Odoo-16-Community\server\odoo\addons\web\controllers\__init__.py", line 5, in <module>
+    from . import database
+  File "C:\Program Files\Odoo-16-Community\server\odoo\addons\web\controllers\database.py", line 19, in <module>
+    from odoo.addons.base.models.ir_qweb import render as qweb_render
+  File "C:\Program Files\Odoo-16-Community\server\odoo\addons\base\__init__.py", line 5, in <module>
+    from . import models
+  File "C:\Program Files\Odoo-16-Community\server\odoo\addons\base\models\__init__.py", line 43, in <module>
+    from . import res_currency
+  File "C:\Program Files\Odoo-16-Community\server\odoo\addons\base\models\res_currency.py", line 16, in <module>
+    from num2words import num2words
+  File "C:\Program Files\Odoo-16-Community\python\lib\site-packages\num2words\__init__.py", line 20, in <module>
+    from . import lang_AR
+  File "C:\Program Files\Odoo-16-Community\python\lib\warnings.py", line 109, in _showwarnmsg
+    sw(msg.message, msg.category, msg.filename, msg.lineno,
+  File "C:\Program Files\Odoo-16-Community\server\odoo\netsvc.py", line 287, in showwarning_with_traceback
+    for frame in traceback.extract_stack():
+ 
+2023-12-10 01:57:44,684 20240 INFO ? odoo.service.server: Initiating shutdown 
+2023-12-10 01:57:44,684 20240 INFO ? odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown. 
+2023-12-10 01:59:06,473 11940 INFO ? odoo: Odoo version 16.0-20231209 
+2023-12-10 01:59:06,474 11940 INFO ? odoo: Using configuration file at C:\Program Files\Odoo-16-Community\server\odoo.conf 
+2023-12-10 01:59:06,474 11940 INFO ? odoo: addons paths: ['C:\\Program Files\\Odoo-16-Community\\server\\odoo\\addons', 'c:\\program files\\odoo-16-community\\sessions\\addons\\16.0', 'c:\\program files\\odoo-16-community\\server\\odoo\\addons'] 
+2023-12-10 01:59:06,474 11940 INFO ? odoo: database: openpg@localhost:5432 
+2023-12-10 01:59:06,921 11940 INFO ? odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltopdf binary at C:\Program Files\Odoo-16-Community\thirdparty\wkhtmltopdf.exe 
+2023-12-10 01:59:07,789 11940 INFO ? odoo.service.server: HTTP service (werkzeug) running on host.docker.internal:8069 
+2023-12-10 01:59:11,858 11940 INFO ? odoo.sql_db: Connection to the database failed 
+2023-12-10 01:59:15,916 11940 INFO ? odoo.sql_db: Connection to the database failed 
+2023-12-10 02:00:49,906 11940 INFO ? odoo.service.server: Initiating shutdown 
+2023-12-10 02:00:49,906 11940 INFO ? odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown. 
+2023-12-10 02:00:50,049 11940 INFO ? odoo.sql_db: ConnectionPool(used=0/count=0/max=64): Closed 0 connections  
